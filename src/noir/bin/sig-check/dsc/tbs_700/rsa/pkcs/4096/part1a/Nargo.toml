@@ -1,0 +1,8 @@
+[package]
+name = "sig_check_dsc_tbs_700_rsa_pkcs_4096_part1a"
+type = "bin"
+authors = ["Theo Madzou", "Michael Elliot"]
+compiler_version = ">=1.0.0"
+
+[dependencies]
+partial_sha256 = { path = "../../../../../../../../lib/partial-sha256" }
